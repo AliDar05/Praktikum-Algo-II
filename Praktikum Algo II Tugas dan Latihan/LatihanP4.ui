@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Latihan P4</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>760</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nama</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Jurusan</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="labelNama">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>60</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nama:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNama">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelJurusan">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>60</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jurusan:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditJurusan">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSimpan">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>240</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Simpan</string>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: #800080; color: white; font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEdit">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>240</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: #800080; color: white; font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnHapus">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>290</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hapus</string>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: #800080; color: white; font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBatal">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>290</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Batal</string>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: #800080; color: white; font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLoad">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>240</y>
+      <width>90</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: #800080; color: white; font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_status">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status: </string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
